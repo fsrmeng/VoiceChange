@@ -1,0 +1,54 @@
+
+{
+	"buildFiles" : [ "E:/Demo/MyVoiceChange/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"E:\\AndroidStudio\\studiosdk\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\Demo\\MyVoiceChange\\app\\.externalNativeBuild\\cmake\\debug\\armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"fmod-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "fmod",
+			"buildType" : "debug",
+			"output" : "E:/Demo/MyVoiceChange/app/libs/armeabi/libfmod.so",
+			"toolchain" : "2102891893"
+		},
+		"fmodL-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "fmodL",
+			"buildType" : "debug",
+			"output" : "E:/Demo/MyVoiceChange/app/libs/armeabi/libfmodL.so",
+			"toolchain" : "2102891893"
+		},
+		"voice_change-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "voice_change",
+			"buildCommand" : "E:\\AndroidStudio\\studiosdk\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\Demo\\MyVoiceChange\\app\\.externalNativeBuild\\cmake\\debug\\armeabi --target voice_change",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=E:/AndroidStudio/studiosdk/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/AndroidStudio/studiosdk/sdk/ndk-bundle/sysroot  -Dvoice_change_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\inc -isystem E:\\AndroidStudio\\studiosdk\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\AndroidStudio\\studiosdk\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\include -isystem E:\\AndroidStudio\\studiosdk\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/AndroidStudio/studiosdk/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "E:/Demo/MyVoiceChange/app/src/main/cpp/voice_change.cpp",
+					"workingDirectory" : "E:/Demo/MyVoiceChange/app/.externalNativeBuild/cmake/debug/armeabi"
+				}
+			],
+			"output" : "E:/Demo/MyVoiceChange/app/build/intermediates/cmake/debug/obj/armeabi/libvoice_change.so",
+			"toolchain" : "2102891893"
+		}
+	},
+	"toolchains" : 
+	{
+		"2102891893" : 
+		{
+			"cCompilerExecutable" : "E:/AndroidStudio/studiosdk/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "E:/AndroidStudio/studiosdk/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
