@@ -1,3 +1,3 @@
 *.C linguist-language=java  
-*.css linguist-language=java  
+*.c linguist-language=java  
 *.html linguist-language=java  
