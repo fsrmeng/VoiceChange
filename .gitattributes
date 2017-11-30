@@ -1,3 +1,1 @@
-*.C linguist-language=Java  
-*.c linguist-language=Java  
-*.html linguist-language=Java  
+*.h linguist-language=Java
