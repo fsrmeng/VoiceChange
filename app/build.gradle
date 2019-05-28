@@ -14,7 +14,7 @@ android {
                 //arguments '-DANDROID_STL=gnustl_static'
                 //cppFlags "-std=c++11 -frtti -fexceptions"
                 cppFlags ""
-                abiFilters "armeabi"
+                abiFilters "armeabi-v7a"
             }
         }
     }

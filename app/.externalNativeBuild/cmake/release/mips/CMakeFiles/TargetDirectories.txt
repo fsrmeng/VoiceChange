@@ -1,3 +1,0 @@
-E:/Demo/MyVoiceChange/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/native-lib.dir
-E:/Demo/MyVoiceChange/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/edit_cache.dir
-E:/Demo/MyVoiceChange/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/rebuild_cache.dir

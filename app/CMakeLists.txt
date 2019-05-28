@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.4.1)
 
-set(path_project E:/Demo/MyVoiceChange)
+#set(path_project E:/Demo/MyVoiceChange)
+set(path_project /Users/panzhang/projects/Android/VoiceChange)
 
 add_library(voice_change
             SHARED
